@@ -30,7 +30,7 @@ sdk/
 
 ## Pruebe su instalación
 
-Para configurar sus propias credenciales de sandbox o producción, configure la siguiente información en la línea 168 y 169:
+Para configurar sus propias credenciales de sandbox o producción, configure la siguiente información en la línea 168 y 169 (consumir la Apis Keys de Producción o Pruebas):
 
 
 ```ruby
@@ -42,7 +42,7 @@ Para configurar sus propias credenciales de sandbox o producción, configure la 
 
 ```
 
-y la línea 423:
+y la línea 423 (consumir solo la Apis Keys de Producción):
 
 ```ruby
 
