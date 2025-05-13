@@ -66,7 +66,9 @@ y la línea 423 (consumir solo la Apis Keys de Producción):
 
 ## 🖼️ Capturas de pantalla (opcional)
 
-_Agrega aquí capturas de la interfaz para mostrar el diseño._
+<img width="1370" alt="Captura de pantalla 2025-05-13 a la(s) 3 54 57 p m" src="https://github.com/user-attachments/assets/4018095c-8381-4b51-a376-2b014988ce16" />
+
+
 
 ## 📄 Licencia
 
