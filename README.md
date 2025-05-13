@@ -24,7 +24,7 @@ sdk/
 ## 🚀 Cómo ejecutar la demo
 
 1. Clona o descarga este repositorio, git clone https://github.com/COMPLEMENTAR LA URL
-2. Abre el archivo `sdk/index.html` en un editor de texto y despues puedes ejuctarlo directemente en tu navegador web
+2. Abre el archivo `sdk/index.html` en un editor de texto y despúes puedes ejucutarlo directemente en tu navegador web
 
 > No se requiere instalación ni servidor web. Todos los recursos están incluidos localmente.
 
