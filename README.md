@@ -23,21 +23,37 @@ sdk/
 
 ## 🚀 Cómo ejecutar la demo
 
-1. Clona o descarga este repositorio.
+1. Clona o descarga este repositorio, git clone https://github.com/COMPLEMENTAR LA URL
 2. Abre el archivo `sdk/index.html` directamente en tu navegador.
 
 > No se requiere instalación ni servidor web. Todos los recursos están incluidos localmente.
 
 ## Pruebe su instalación
 
-Para configurar sus propias credenciales de sandbox o producción, configure la siguiente información en la línea 168 y 169 del código:
+Para configurar sus propias credenciales de sandbox o producción, configure la siguiente información en la línea 168 y 169:
 
 
 ```ruby
  <!-- Autenticación -->
     <script>
-      const API_KEY = "tu-api-key" //Aquí va tu API Key, no es necesario agregar nada más
-      const token = "tu-api-key";
+      const API_KEY = "tu-api-kei Basic ejemplo YWJhNWJkNjQtOTYwOC00N2E4LWIwMzUtNWU2NDkzOTBjZTViOmY2NmI0MzVkLTFmYTEtNDk5NC0wMmI2LTBiYTYzMmJhMThiZA== " //Aquí va tu API Key, no es necesario agregar nada más
+      const token = "tu-api-key ejemplo Basic YWJhNWJkNjQtOTYwOC00N2E4LWIwMzUtNWU2NDkzOTBjZTViOmY2NmI0MzVkLTFmYTEtNDk5NC0wMmI2LTBiYTYzMmJhMThiZA==";
+...
+
+```
+
+y la línea 423:
+
+```ruby
+
+ async function checkout(token) {
+        const options = {
+          method: 'POST',
+          headers: {
+            'Authorization': 'tu-api-key- ejemplo Basic YWJhNWJkNjQtOTYwOC00N2E4LWIwMzUtNWU2NDkzOTBjZTViOmY2NmI0MzVkLTFmYTEtNDk5NC0wMmI2LTBiYTYzMmJhMThiZA==',
+            'accept': 'application/json', 
+            'content-type': 'application/json'
+          },
 ...
 
 ```
