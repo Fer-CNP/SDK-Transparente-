@@ -30,14 +30,14 @@ sdk/
 
 ## Pruebe su instalación
 
-Para configurar sus propias credenciales de sandbox o producción, configure la siguiente información en la línea 166 del código:
+Para configurar sus propias credenciales de sandbox o producción, configure la siguiente información en la línea 168 y 169 del código:
 
 
 ```ruby
  <!-- Autenticación -->
     <script>
-      const API_KEY = " " //Aquí va tu API Key, no es necesario agregar nada más
-      const token = " ";
+      const API_KEY = "tu-api-key" //Aquí va tu API Key, no es necesario agregar nada más
+      const token = "tu-api-key";
 ...
 
 ```
