@@ -36,8 +36,8 @@ Para configurar sus propias credenciales de sandbox o producción, configure la 
 ```ruby
  <!-- Autenticación -->
     <script>
-      const API_KEY = "tu-api-kei Basic ejemplo YWJhNWJkNjQtOTYwOC00N2E4LWIwMzUtNWU2NDkzOTBjZTViOmY2NmI0MzVkLTFmYTEtNDk5NC0wMmI2LTBiYTYzMmJhMThiZA== " //Aquí va tu API Key, no es necesario agregar nada más
-      const token = "tu-api-key ejemplo Basic YWJhNWJkNjQtOTYwOC00N2E4LWIwMzUtNWU2NDkzOTBjZTViOmY2NmI0MzVkLTFmYTEtNDk5NC0wMmI2LTBiYTYzMmJhMThiZA==";
+      const API_KEY = "tu-Basic ejemplo YWJhNWJkNjQtOTYwOC00N2E4LWIwMzUtNWU2NDkzOTBjZTViOmY2NmI0MzVkLTFmYTEtNDk5NC0wMmI2LTBiYTYzMmJhMThiZA== " //Aquí va tu API Key, no es necesario agregar nada más
+      const token = "tu-Basic ejemplo Basic YWJhNWJkNjQtOTYwOC00N2E4LWIwMzUtNWU2NDkzOTBjZTViOmY2NmI0MzVkLTFmYTEtNDk5NC0wMmI2LTBiYTYzMmJhMThiZA==";
 ...
 
 ```
@@ -50,7 +50,7 @@ y la línea 423 (consumir solo la Apis Keys de Producción):
         const options = {
           method: 'POST',
           headers: {
-            'Authorization': 'tu-api-key- ejemplo Basic YWJhNWJkNjQtOTYwOC00N2E4LWIwMzUtNWU2NDkzOTBjZTViOmY2NmI0MzVkLTFmYTEtNDk5NC0wMmI2LTBiYTYzMmJhMThiZA==',
+            'Authorization': 'tu-Basic ejemplo Basic YWJhNWJkNjQtOTYwOC00N2E4LWIwMzUtNWU2NDkzOTBjZTViOmY2NmI0MzVkLTFmYTEtNDk5NC0wMmI2LTBiYTYzMmJhMThiZA==',
             'accept': 'application/json', 
             'content-type': 'application/json'
           },
