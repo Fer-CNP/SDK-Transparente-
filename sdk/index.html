@@ -217,50 +217,14 @@
             return installment;    
           });
 
-          /*async function procesarResultados(cardholderData, installment) {
-            console.log(cardholderData.firstName);
-            console.log(cardholderData.lastName);
-            console.log(installment);
-
-            let res = await ApiPayment(token, cardToken, amountRegex, cardholderData.firstName, cardholderData.lastName, installment, preventionData.user_agent, preventionData.session_id);
-            console.log(res);
-            /*if(res.status == 'pending' && res.status_detail.code == "PE-3DS01" && res.status_detail.message == "Waiting 3ds"){
-              console.log(res.status)
-              show3DSIframe(res.pending_action.url, res.id);
-            }*/
-
-          //}
-
           if (cardTokenID) {
             console.log("Llamando a ApiPayment con el token:", token, "y cardTokenID:", cardTokenID, cardToken, amountRegex, preventionData.user_agent, preventionData.session_id); 
             let res = await ApiPayment(token, cardTokenID, amountRegex, preventionData.user_agent, preventionData.session_id);
             console.log(res);
 
-            /*Promise.all([cardholderData, installments])
-            .then((response) => {
-              procesarResultados(response[0], response[1]);
-            })
-            .catch((error) => {
-              console.error("Error en alguna de las promesas:", error);
-            });*/
-
-
             //Identificar si un pago requiere validación 3DS
             if(res.status == 'pending' && res.status_detail.code == "PE-3DS01" && res.status_detail.message == "Waiting 3ds"){
               console.log('3DS Active');
-
-              /*res = {
-                id: res.id,
-                pending_action: {
-                  type: "open_modal",
-                  url: "https://3ds.payclip.com?transaction=1234"
-                },
-                status: res.status,
-                status_detail: {
-                  code: res.status_detail.code,
-                  message: res.status_detail.message
-                }
-              }*/
 
               console.log(res)
               show3DSIframe(res.pending_action.url, res.id);
@@ -324,7 +288,7 @@
           const options = {
             method: 'POST',
             headers: {
-              'Authorization': 'Tu_BASIC
+              'Authorization': 'Tu_BASIC64
                 ',
               'accept': 'application/json', 
               'content-type': 'application/json'
@@ -465,4 +429,5 @@
     </script>
   </body>
 </html>
+
 
