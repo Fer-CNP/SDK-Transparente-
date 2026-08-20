@@ -73,3 +73,20 @@ y la línea 423 (consumir solo la Apis Keys de Producción):
 ## 📄 Licencia
 
 Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo `LICENSE` para más información.
+
+# Demo Checkout Transparente - Clip (SDK)
+
+Este repositorio es una guía de integración directa (Frontend + cURL) para comercios que ya cuentan con su propio servidor o hosting.
+
+## 🚀 Demo Interactiva en Vivo
+Si quieres probar el flujo completo en un entorno seguro antes de integrar, visita nuestro demo en la nube:
+👉 **[Ver Demo en Vivo (Vercel)](https://sdk-transparente-backend.vercel.app)**
+
+---
+
+## 🛠️ Estructura del Código
+* `index.html`: Contiene el SDK de Clip para montar el formulario y los `fetch` directos a las APIs de Clip (`/payments` y `/v2/checkout`).
+* `style.css` y `/components`: Estilos para renderizar la interfaz de la tienda de prueba.
+
+## ⚠️ Nota Importante de Seguridad para Desarrollo
+Para fines de demostración directa en este repositorio, los endpoints apuntan desde el cliente. Para un entorno en **Producción**, se recomienda enrutarlos a través de tu propio backend para no exponer tu `Basic Token` en el navegador.
